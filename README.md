@@ -6,6 +6,8 @@
 * ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/flowchart.png)
 * OUTPUT PROGRAM `test-nilai.py`:
 * ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/output.png)
+* Contoh Output program dengan 5 data inputan :
+* ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/banyakData.png)
 * __PENJELASAN__ :
   *  Inisialisasi variabel untuk menampung nilai inputan dari user:
   * ```
@@ -74,6 +76,7 @@
 * __PENJELASAN__:
 * Nilai Awal : 
 * `bahasa = ['Python', 'Java', 'Javascript', 'Dart', 'Kotlin']`
+* length = 5
 * | Elemen      | Index | negative index |
   | ----------- | ----- | -------------- |
   | Pyhton      | 0     | -5             |
@@ -89,11 +92,15 @@
 * ambil elemen terakhir :
   - `print('Elemen terakhir adalah ', bahasa[-1])`
 * ubah elemen ke 4 dengan nilai lainnya :
-  - `bahasa[3] = 'c++'
-     print('Elemen ke 4 adalah ', bahasa[3])`
+  -  ```
+     bahasa[3] = 'c++'
+     print('Elemen ke 4 adalah ', bahasa[3])
+     ```
 * ubah elemen ke 4 sampai dengan elemen terakhir :
-  - `bahasa[3:] = 'c#', 'PHP'
-     print(bahasa)`
+  - ```
+    bahasa[3:] = 'c#', 'PHP'
+    print(bahasa)
+    ```
 * ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B) :
   - ```
     A = bahasa[0:2]
