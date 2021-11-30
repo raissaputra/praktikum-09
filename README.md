@@ -3,7 +3,7 @@
 
 ### Program Menampilkan List Nilai (Tugas, UTS, UAS, Nilai Akhir)
 * FLOWCHART :
-* ![img]()
+* ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/flowchart.png)
 * OUTPUT PROGRAM `test-nilai.py`:
 * ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/output.png)
 * __PENJELASAN__ :
@@ -72,7 +72,50 @@
 * OUTPUT PROGRAM `list.py`:
 * ![img](https://github.com/raissaputra/praktikum-09/blob/main/assets/list.png)
 * __PENJELASAN__:
-  - 
+* Nilai Awal : 
+* `bahasa = ['Python', 'Java', 'Javascript', 'Dart', 'Kotlin']`
+* | Elemen      | Index | negative index |
+  | ----------- | ----- | -------------- |
+  | Pyhton      | 0     | -5             |
+  | Java        | 1     | -4             |
+  | Javascript  | 2     | -3             |
+  | Dart        | 3     | -2             |
+  | Kotlin      | 4     | -1             |
+  
+* Untuk menampilkan elemen ke 3 :
+  - `print('Elemen ke 3 adalah ', bahasa[3])`
+* ambil nilai elemen ke 2 sampai elemen ke 4 :
+  - `print('Nilai elemen ke 2 sampai ke 4 adalah ', bahasa[2:5])`
+* ambil elemen terakhir :
+  - `print('Elemen terakhir adalah ', bahasa[-1])`
+* ubah elemen ke 4 dengan nilai lainnya :
+  - `bahasa[3] = 'c++'
+     print('Elemen ke 4 adalah ', bahasa[3])`
+* ubah elemen ke 4 sampai dengan elemen terakhir :
+  - `bahasa[3:] = 'c#', 'PHP'
+     print(bahasa)`
+* ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B) :
+  - ```
+    A = bahasa[0:2]
+    B = bahasa[2:]
+    print(A)
+    print(B)
+    ```
+• tambah list B dengan nilai string :
+  - ```
+    B.append('Web')
+    print(B)
+    ```
+• tambah list B dengan 3 nilai :
+  - ```
+    B.extend([1, 2, 3])
+    print(B)
+    ```
+• gabungkan list B dengan list A:
+  - ```
+    B.extend(A)
+    print(B)
+    ```
 
 
 
